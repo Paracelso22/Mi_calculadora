@@ -20,6 +20,10 @@ def potencia(a: float, b: float) -> float:
     #Calcula a elevado a la b.
     return a**b
 
+def elevar_al_cubo(a: float) -> float:
+    #Eleva un número al cubo.
+    return a ** 3
+
 
 if __name__ == "__main__":
     print(sumar(2, 3))          #5
